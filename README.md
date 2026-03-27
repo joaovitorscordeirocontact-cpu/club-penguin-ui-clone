@@ -42,7 +42,7 @@ The goal was to replicate the visual structure and responsiveness of the origina
 
 ## 📸 Preview
 
-![Preview](preview/screenshot.png)
+![Preview](preview/clone.png)
 
 ---
 
