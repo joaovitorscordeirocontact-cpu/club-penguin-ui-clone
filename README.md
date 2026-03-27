@@ -38,6 +38,11 @@ The goal was to replicate the visual structure and responsiveness of the origina
 * Improving accessibility with `alt` attributes and `aria-label`
 * Performance basics like lazy loading images and controlling video preload
 
+---
+
+## 📸 Preview
+
+![Preview](preview/screenshot.png)
 
 ---
 
