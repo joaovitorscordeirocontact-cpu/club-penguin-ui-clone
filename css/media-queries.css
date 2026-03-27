@@ -1,0 +1,93 @@
+/* DIFFERENT SCREEN SIZES */
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .menu-button img {
+    display: inline-block;
+  }
+  .main-nav {
+    display: none;
+  }
+  .play-button {
+    top: 35px;
+    right: 80px;
+  }
+  .logo {
+    width: clamp(99px, calc(65.5px + 6.5vw) ,150px);
+  }
+  .homepage-links-grid {
+  grid-template-columns: 1fr 1fr;
+  }
+  .homepage-link-img {
+  width: 212px;
+  }
+  .link-description {
+  width: 212px;
+  }
+}
+
+
+@media (min-width: 991px) {
+  .menu-button img {
+    display: none;
+  }
+  .main-nav {
+    display: flex;
+  }
+  .play-button {
+    top: 35px;
+    right: 35px;
+  }
+  .logo {
+    width: 150px;    
+  }
+  .homepage-links-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .homepage-link-img {
+  width: 212px;
+  }
+  .link-description {
+  width: 212px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .menu-button img {
+    display: inline-block;
+  }
+  .main-nav {
+    display: none;
+  }
+  .play-button {
+    top: 35px;
+    right: 80px;
+  }
+  .logo {
+    width: clamp(99px, calc(65.5px + 6.5vw) ,150px);
+  }
+  .homepage-links-grid {
+  grid-template-columns: 1fr 1fr;
+  }
+  .homepage-link-img {
+  width: 309px;
+  }
+  .link-description {
+  width: 309px;
+  }
+}
+
+
+@media (min-width:1161px) {
+  .logo {
+    top: 35px;
+    left: clamp(45px, 7vw, 140px);  
+  }
+}
+
+/* Ensure .logo keeps the same left offset below 1161px
+   to avoid unexpected shifts caused by other responsive rules */
+@media (max-width:1160px) {
+  .logo {
+    left: 45px;
+  }
+}

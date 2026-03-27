@@ -1,0 +1,129 @@
+.logo {
+  position: absolute;
+  transition: 0.5s;
+  cursor: pointer;
+  top: 35px;
+  display: block;
+  z-index: 26;
+}
+
+.community-icon,
+.parents-icon,
+.stay-safe-icon,
+.help-icon {
+  padding: 4px 20px 4px 20px;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+
+.community-icon:hover,
+.parents-icon:hover,
+.stay-safe-icon:hover,
+.help-icon:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* play button and its hover */
+.play-button {
+  background-image: url(header-imgs/play-now-img.png);
+  background-color: rgba(255, 255, 255, 0);
+  position:absolute;
+  z-index: 22;
+  width: 149px;
+  height: 60px;
+  cursor: pointer;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  transition: 0.15s ease;
+  border: none;
+}
+
+
+.play-button:hover {
+  background-image: url(header-imgs/play-now-hovered-img.png);
+}
+
+
+
+.menu-button {
+  position: absolute;
+  top: 55px;
+  right: 35px;
+  filter: invert(100%); /*Inverte as cores*/
+  cursor: pointer;
+  z-index: 23;
+}
+
+.menu-button img {
+  width: 22px;
+}
+
+/* wellcome text */
+
+.welcome-text {
+  position: relative;
+  top: calc(-10px + 1.3vw);
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.15s ease;
+  max-width: 320px;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 24;
+}
+
+.welcome-text:hover {
+  color: rgb(245, 188, 2);
+}
+
+/* HOMEPAGE LINK GENERAL ITENS */
+.title {
+  color: #29a0ed;
+  font-family: sans-serif;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.link-description {
+  margin-top: 1px;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  /* width: 212px; */
+  color: rgb(55, 55, 55);
+}
+
+
+.explore-button,
+.parents-button,
+.fun-stuff-button,
+.help-button {
+  display: inline-block;
+  width: 62px;
+  height: 20px;
+  padding: 9px 15px 9px 15px;
+  background-color: rgb(56, 152, 236);
+  background-image: linear-gradient(#fff, #a4daff);
+  border: solid 1px;
+  border-color: rgb(141, 190, 255);
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #015e9c;
+  text-decoration: solid;
+  text-align: center;
+  white-space: nowrap;
+  
+}
+
+.parents-button {
+  width: 72px;
+}
